@@ -20,7 +20,7 @@ Ao digitar uma palavra e apertar a tecla enter, será feita uma validação, ond
 - Caso a letra não exista na palavra, ela irá ser alterada para a cor de fundo cinza.
 
 > [!NOTE]
-> Há uma verificação que aceita cliques apenas nas teclas de `A - Z`, `Enter` e `Backspace`. Evitando com que números e outros elementos sejam apertados.
+> Há uma verificação que aceita cliques apenas nas teclas de `A - Z`, `Enter` e `Backspace`. Evitando com que números e outros caracteres sejam apertados.
 
 
  
