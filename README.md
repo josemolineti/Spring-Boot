@@ -1,6 +1,7 @@
 # Termo Spring Boot
 
-A aplicação se refere a uma adaptação do jogo de navegador [`TERMO`](https://term.ooo/);
+A aplicação se refere a uma adaptação do jogo de navegador [`TERMO`](https://term.ooo/),
+
 Onde o objetivo é tentar adivinhar uma palavra aleatória de 5 letras escondida, com apenas 5 chances.
 
 Ao baixar o projeto, para acessa-lo, deve realizar os seguintes passos:
