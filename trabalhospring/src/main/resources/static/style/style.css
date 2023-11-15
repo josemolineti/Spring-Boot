@@ -1,0 +1,78 @@
+:root {
+    --cor-principal: #6e5c62;
+    --cor-borda: #615458;
+    --cor-errado: #312a2c;
+    --cor-correto: #3aa394;
+    --cor-parcial: #d3ad69;
+    --cor-teclado: #4c4347;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Mitr', sans-serif;
+    font-weight: 600;
+    background-color: var(--cor-principal);
+    color: white;
+    align-items: center;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+#board {
+    width: 400px;
+    height: 470px;
+    margin: 0 auto;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letra {
+    border-radius: 5px;
+    border: 4px solid var(--cor-borda);
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-resposta {
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25pt;
+}
+
+
+
+.correct {
+    background-color: var(--cor-correto);
+    border: 4px solid var(--cor-correto);
+
+}
+
+.contains {
+    background-color: var(--cor-parcial);
+    border: 4px solid var(--cor-parcial);
+}
+
+.not-contains {
+    background-color: var(--cor-errado);
+    border: 4px solid var(--cor-errado);
+}
